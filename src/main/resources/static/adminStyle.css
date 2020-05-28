@@ -1,0 +1,30 @@
+.clickable-row-u {
+    cursor: pointer;
+}
+
+.clickable-row-u:focus {
+    background-color: #007bff !important;
+}
+
+.clickable-row-o {
+    cursor: pointer;
+}
+
+.clickable-row-o:focus {
+    background-color: #007bff !important;
+}
+
+.clickable-row-i {
+    cursor: default;
+    outline: none;
+}
+
+.admin {
+    font-family: 'Work Sans', sans-serif;
+    color: #0055ff !important;
+    display: inline;
+}
+
+.header {
+    padding-top: 10px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Login</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4826e9f54.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="loginForm" class="login-form">
+    <form>
+        <img src="images/logo.png" class="logo-small" alt="logo">
+        <div class="login-info">
+            <label class="login-label">Username</label><br/>
+            <input required id="username-input" type="text" maxlength="20" class="login-input"/>
+        </div>
+        <div class="login-info">
+            <label class="login-label">Firstname</label><br/>
+            <input required id="firstname-input" type="text" maxlength="20" class="login-input"/>
+        </div>
+        <div class="login-info">
+            <label class="login-label">Lastname</label><br/>
+            <input required id="lastname-input" type="text" maxlength="20" class="login-input"/>
+        </div>
+        <div class="login-info">
+            <label class="login-label">Password</label><br/>
+            <input required minlength="5" id="password-input" type="password" maxlength="20" class="login-input"/>
+        </div>
+        <h5 id="reg-wrong-label"></h5>
+        <button type="submit" id="registerBtn" class="btn login-btn">Register</button>
+    </form>
+    <button id="loginBtn" class="btn login-btn">Go Back</button>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

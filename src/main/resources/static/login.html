@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Login</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4826e9f54.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="login-form">
+    <img src="images/logo.png" class="logo-small" alt="logo">
+    <div class="login-info">
+        <label class="login-label">Username</label><br/>
+        <input id="username-input" type="text" maxlength="20" class="login-input"/>
+    </div>
+    <div class="login-info">
+        <label class="login-label">Password</label><br/>
+        <input id="password-input" type="password" maxlength="20" class="login-input"/>
+    </div>
+    <h5 id="wrong-label">Wrong username or password</h5>
+    <button type="submit" id="login-btn" class="btn login-btn">Login</button>
+    <button id="register-btn" class="btn login-btn">Register</button>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
